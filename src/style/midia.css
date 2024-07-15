@@ -1,0 +1,18 @@
+@media (max-width: 1200px) {
+  .cabeca{
+    padding: 5%;
+  }
+  .cabeca > nav{
+    justify-content: center;
+    gap: 15px;
+  }
+  
+    .boasVindas{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+}
+
+.boasVindas__conteudo{
+    width: auto;
+}

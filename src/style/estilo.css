@@ -1,0 +1,121 @@
+
+@import url(fonts.css);
+:root{
+    --cor-nuamSei:#8400ff ;
+    --cor-letras:#283618 ;
+    --cor-Qfundo: #dda15e;
+    --cor-borda:#42260e;
+    --cor-hover: #723b0b;
+
+    --font-giz: "Margarine";
+    --font-SeiLa: "Manrope";
+}
+body{
+  background-color: #bc6c25;
+}
+.perfil{
+    border-radius: 15% 0% 15% 0%;
+    border: 3px solid var(--cor-borda);
+    width: 50%;
+}
+.cabeca{
+    box-sizing: border-box;
+    margin: 2%;
+    padding: 2%;
+    background-color: var(--cor-Qfundo);
+    border:4px solid var(--cor-borda);
+    color:var(--cor-letras) ; 
+}
+.cabeca > nav{
+    display: flex;
+    flex-direction:  row;
+    justify-content: end;
+    gap: 10px;
+}
+.cabeca > nav > a{
+color: var(--cor-letras);
+font-size: 1.5rem;
+font-weight: 600;
+font-family: var(--font-giz);
+}
+.cabeca > nav > a:hover{
+ color: var(--cor-hover);
+ border-bottom: 2px solid var(--cor-nuamSei);
+}
+.boasVindas{
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 2%;
+    background-color: var(--cor-Qfundo);
+    border:4px solid var(--cor-borda);
+    color: var(--cor-letras);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.destaque{
+    color: var(--cor-nuamSei);
+}
+.boasVindas__conteudo{
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 40px;
+
+}
+.boasVindas__conteudo > h1{
+    font-size: 2.25rem;
+    font-family: var(--font-giz);
+}
+.boasVindas__conteudo > p{
+    font-size: 1.5rem;
+    font-family:var(--font-SeiLa);
+}
+.butoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.butoes > h2{
+    font-family:var(--font-giz);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.butoes > a{
+    display: flex;
+    background-color: #fefae0;
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    border: 2px solid var(--cor-borda);
+    border-radius: 25vh;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    transition: background-color, color, 1s;
+    align-items: center;
+    font-family: var(--font-SeiLa);
+}
+
+.butoes >a:hover{
+    background-color: var(--cor-hover);
+    color: #fbfdff;
+    height: 60px;
+    width: 80%;
+}
+
+.rodape{
+    background-color:var(--cor-Qfundo);
+    border:4px solid var(--cor-borda);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: var(--cor-nuamSei);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--font-SeiLa);
+}

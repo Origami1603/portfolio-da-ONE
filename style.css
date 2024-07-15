@@ -1,0 +1,4 @@
+/* Aqui é onde fica o import dos arquivos CSS */
+@import url(src/style/reset.css);
+@import url(src/style/estilo.css);
+@import url(src/style/midia.css);
